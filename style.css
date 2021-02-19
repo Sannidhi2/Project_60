@@ -1,0 +1,79 @@
+body{
+    text-align:center;
+    background-color: cornsilk;
+    background: linear-gradient(#fab4f5 0%,#341282 100%);
+}
+#myphoto{
+    width:200px;
+    height:150px;
+    border-radius:50%
+}
+.line{
+    line-height: 2.1;
+    max-width:450px;
+    height:6px;
+    background-color:black;
+    margin:8px auto;
+}
+p{
+    font-family:cursive;
+    font-size: 20px;
+}
+#C{
+    font-family:monospace;
+    font-size: 27px;
+}
+.menu{
+    list-style:none;
+    font-family:cursive;
+    float:right;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    color:black;
+}
+.links:hover{
+    background-color: darkviolet;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: inherit;
+    font-size: 16px;
+    color: aliceblue
+}
+#name{
+    font-size:30px;
+    font-family:'Pacifico', cursive;
+}
+.article{
+    color:black;
+    font-size:25px;
+}
+html{
+    scroll-behavior:smooth;
+}
+.article:hover{
+    color:darkgreen;
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+    font-family: cursive
+}
+img{
+    border:8px;
+    border-style: solid;
+    border-color:black;
+    padding:5px;
+    transition:transform .2s;
+}
+img:hover{
+    transform:scale(0.9);
+}
+#C{
+    font-family:monospace;
+}
